@@ -12,3 +12,5 @@ router.post("/login", (req, res) => {
 router.post("/current", (req, res) => {
   res.json({ message: "current user" });
 });
+
+module.exports = router
